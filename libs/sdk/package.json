@@ -17,6 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "@prici/shared-remult": "workspace:^",
+    "fastify": "^4.26.0",
+    "fastify-plugin": "^5.0.1",
     "remult": "^0.25.7"
   },
   "peerDependencies": {
