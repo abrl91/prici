@@ -206,15 +206,16 @@ importers:
       '@prici/shared-remult':
         specifier: workspace:^
         version: link:../shared-remult
+      remult:
+        specifier: ^0.25.7
+        version: 0.25.7
+    devDependencies:
       fastify:
-        specifier: ^4.26.0
+        specifier: ^4.25.0
         version: 4.26.0
       fastify-plugin:
         specifier: ^5.0.1
         version: 5.0.1
-      remult:
-        specifier: ^0.25.7
-        version: 0.25.7
 
   libs/shared-remult:
     dependencies:
